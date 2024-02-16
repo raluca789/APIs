@@ -1,0 +1,58 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.buttons button {
+  outline: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 0.75rem;
+  border-radius: 0.25rem;
+  background-color: rgb(245, 232, 214);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#user {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#user div {
+  background-color: rgb(249, 241, 233);
+  max-width: 320px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#user img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+#user .user-details {
+  background-color: rgb(249, 241, 233);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+#user .user-details p {
+  margin: 0.25rem 0;
+}
